@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBB78C3C2AFF33DE0023FA1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB78C3B2AFF33DE0023FA1F /* AppDelegate.swift */; };
+		EBB78C3E2AFF33DE0023FA1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB78C3D2AFF33DE0023FA1F /* SceneDelegate.swift */; };
+		EBB78C402AFF33DE0023FA1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB78C3F2AFF33DE0023FA1F /* ViewController.swift */; };
+		EBB78C432AFF33DE0023FA1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBB78C412AFF33DE0023FA1F /* Main.storyboard */; };
+		EBB78C452AFF33DE0023FA1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBB78C442AFF33DE0023FA1F /* Assets.xcassets */; };
+		EBB78C482AFF33DE0023FA1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBB78C462AFF33DE0023FA1F /* LaunchScreen.storyboard */; };
+		EBB78C532AFF33DF0023FA1F /* Snitch_GPTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB78C522AFF33DF0023FA1F /* Snitch_GPTTests.swift */; };
+		EBB78C5D2AFF33DF0023FA1F /* Snitch_GPTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB78C5C2AFF33DF0023FA1F /* Snitch_GPTUITests.swift */; };
+		EBB78C5F2AFF33DF0023FA1F /* Snitch_GPTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB78C5E2AFF33DF0023FA1F /* Snitch_GPTUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBB78C4F2AFF33DF0023FA1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBB78C302AFF33DE0023FA1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBB78C372AFF33DE0023FA1F;
+			remoteInfo = "Snitch GPT";
+		};
+		EBB78C592AFF33DF0023FA1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBB78C302AFF33DE0023FA1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBB78C372AFF33DE0023FA1F;
+			remoteInfo = "Snitch GPT";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBB78C382AFF33DE0023FA1F /* Snitch GPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snitch GPT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB78C3B2AFF33DE0023FA1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBB78C3D2AFF33DE0023FA1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EBB78C3F2AFF33DE0023FA1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBB78C422AFF33DE0023FA1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBB78C442AFF33DE0023FA1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBB78C472AFF33DE0023FA1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBB78C492AFF33DE0023FA1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBB78C4E2AFF33DF0023FA1F /* Snitch GPTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snitch GPTTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB78C522AFF33DF0023FA1F /* Snitch_GPTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snitch_GPTTests.swift; sourceTree = "<group>"; };
+		EBB78C582AFF33DF0023FA1F /* Snitch GPTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snitch GPTUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB78C5C2AFF33DF0023FA1F /* Snitch_GPTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snitch_GPTUITests.swift; sourceTree = "<group>"; };
+		EBB78C5E2AFF33DF0023FA1F /* Snitch_GPTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snitch_GPTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBB78C352AFF33DE0023FA1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB78C4B2AFF33DF0023FA1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB78C552AFF33DF0023FA1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBB78C2F2AFF33DE0023FA1F = {
+			isa = PBXGroup;
+			children = (
+				EBB78C3A2AFF33DE0023FA1F /* Snitch GPT */,
+				EBB78C512AFF33DF0023FA1F /* Snitch GPTTests */,
+				EBB78C5B2AFF33DF0023FA1F /* Snitch GPTUITests */,
+				EBB78C392AFF33DE0023FA1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBB78C392AFF33DE0023FA1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBB78C382AFF33DE0023FA1F /* Snitch GPT.app */,
+				EBB78C4E2AFF33DF0023FA1F /* Snitch GPTTests.xctest */,
+				EBB78C582AFF33DF0023FA1F /* Snitch GPTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBB78C3A2AFF33DE0023FA1F /* Snitch GPT */ = {
+			isa = PBXGroup;
+			children = (
+				EBB78C3B2AFF33DE0023FA1F /* AppDelegate.swift */,
+				EBB78C3D2AFF33DE0023FA1F /* SceneDelegate.swift */,
+				EBB78C3F2AFF33DE0023FA1F /* ViewController.swift */,
+				EBB78C412AFF33DE0023FA1F /* Main.storyboard */,
+				EBB78C442AFF33DE0023FA1F /* Assets.xcassets */,
+				EBB78C462AFF33DE0023FA1F /* LaunchScreen.storyboard */,
+				EBB78C492AFF33DE0023FA1F /* Info.plist */,
+			);
+			path = "Snitch GPT";
+			sourceTree = "<group>";
+		};
+		EBB78C512AFF33DF0023FA1F /* Snitch GPTTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBB78C522AFF33DF0023FA1F /* Snitch_GPTTests.swift */,
+			);
+			path = "Snitch GPTTests";
+			sourceTree = "<group>";
+		};
+		EBB78C5B2AFF33DF0023FA1F /* Snitch GPTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBB78C5C2AFF33DF0023FA1F /* Snitch_GPTUITests.swift */,
+				EBB78C5E2AFF33DF0023FA1F /* Snitch_GPTUITestsLaunchTests.swift */,
+			);
+			path = "Snitch GPTUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBB78C372AFF33DE0023FA1F /* Snitch GPT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBB78C622AFF33DF0023FA1F /* Build configuration list for PBXNativeTarget "Snitch GPT" */;
+			buildPhases = (
+				EBB78C342AFF33DE0023FA1F /* Sources */,
+				EBB78C352AFF33DE0023FA1F /* Frameworks */,
+				EBB78C362AFF33DE0023FA1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Snitch GPT";
+			productName = "Snitch GPT";
+			productReference = EBB78C382AFF33DE0023FA1F /* Snitch GPT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBB78C4D2AFF33DF0023FA1F /* Snitch GPTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBB78C652AFF33DF0023FA1F /* Build configuration list for PBXNativeTarget "Snitch GPTTests" */;
+			buildPhases = (
+				EBB78C4A2AFF33DF0023FA1F /* Sources */,
+				EBB78C4B2AFF33DF0023FA1F /* Frameworks */,
+				EBB78C4C2AFF33DF0023FA1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBB78C502AFF33DF0023FA1F /* PBXTargetDependency */,
+			);
+			name = "Snitch GPTTests";
+			productName = "Snitch GPTTests";
+			productReference = EBB78C4E2AFF33DF0023FA1F /* Snitch GPTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBB78C572AFF33DF0023FA1F /* Snitch GPTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBB78C682AFF33DF0023FA1F /* Build configuration list for PBXNativeTarget "Snitch GPTUITests" */;
+			buildPhases = (
+				EBB78C542AFF33DF0023FA1F /* Sources */,
+				EBB78C552AFF33DF0023FA1F /* Frameworks */,
+				EBB78C562AFF33DF0023FA1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBB78C5A2AFF33DF0023FA1F /* PBXTargetDependency */,
+			);
+			name = "Snitch GPTUITests";
+			productName = "Snitch GPTUITests";
+			productReference = EBB78C582AFF33DF0023FA1F /* Snitch GPTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBB78C302AFF33DE0023FA1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EBB78C372AFF33DE0023FA1F = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					EBB78C4D2AFF33DF0023FA1F = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = EBB78C372AFF33DE0023FA1F;
+					};
+					EBB78C572AFF33DF0023FA1F = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = EBB78C372AFF33DE0023FA1F;
+					};
+				};
+			};
+			buildConfigurationList = EBB78C332AFF33DE0023FA1F /* Build configuration list for PBXProject "Snitch GPT" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBB78C2F2AFF33DE0023FA1F;
+			productRefGroup = EBB78C392AFF33DE0023FA1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBB78C372AFF33DE0023FA1F /* Snitch GPT */,
+				EBB78C4D2AFF33DF0023FA1F /* Snitch GPTTests */,
+				EBB78C572AFF33DF0023FA1F /* Snitch GPTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBB78C362AFF33DE0023FA1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB78C482AFF33DE0023FA1F /* LaunchScreen.storyboard in Resources */,
+				EBB78C452AFF33DE0023FA1F /* Assets.xcassets in Resources */,
+				EBB78C432AFF33DE0023FA1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB78C4C2AFF33DF0023FA1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB78C562AFF33DF0023FA1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBB78C342AFF33DE0023FA1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB78C402AFF33DE0023FA1F /* ViewController.swift in Sources */,
+				EBB78C3C2AFF33DE0023FA1F /* AppDelegate.swift in Sources */,
+				EBB78C3E2AFF33DE0023FA1F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB78C4A2AFF33DF0023FA1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB78C532AFF33DF0023FA1F /* Snitch_GPTTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB78C542AFF33DF0023FA1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB78C5D2AFF33DF0023FA1F /* Snitch_GPTUITests.swift in Sources */,
+				EBB78C5F2AFF33DF0023FA1F /* Snitch_GPTUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBB78C502AFF33DF0023FA1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBB78C372AFF33DE0023FA1F /* Snitch GPT */;
+			targetProxy = EBB78C4F2AFF33DF0023FA1F /* PBXContainerItemProxy */;
+		};
+		EBB78C5A2AFF33DF0023FA1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBB78C372AFF33DE0023FA1F /* Snitch GPT */;
+			targetProxy = EBB78C592AFF33DF0023FA1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBB78C412AFF33DE0023FA1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBB78C422AFF33DE0023FA1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBB78C462AFF33DE0023FA1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBB78C472AFF33DE0023FA1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBB78C602AFF33DF0023FA1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBB78C612AFF33DF0023FA1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBB78C632AFF33DF0023FA1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LFC8HAVM97;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Snitch GPT/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idc.Snitch-GPT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBB78C642AFF33DF0023FA1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LFC8HAVM97;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Snitch GPT/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idc.Snitch-GPT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EBB78C662AFF33DF0023FA1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LFC8HAVM97;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idc.Snitch-GPTTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snitch GPT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Snitch GPT";
+			};
+			name = Debug;
+		};
+		EBB78C672AFF33DF0023FA1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LFC8HAVM97;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idc.Snitch-GPTTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snitch GPT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Snitch GPT";
+			};
+			name = Release;
+		};
+		EBB78C692AFF33DF0023FA1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LFC8HAVM97;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idc.Snitch-GPTUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Snitch GPT";
+			};
+			name = Debug;
+		};
+		EBB78C6A2AFF33DF0023FA1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LFC8HAVM97;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idc.Snitch-GPTUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Snitch GPT";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBB78C332AFF33DE0023FA1F /* Build configuration list for PBXProject "Snitch GPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB78C602AFF33DF0023FA1F /* Debug */,
+				EBB78C612AFF33DF0023FA1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBB78C622AFF33DF0023FA1F /* Build configuration list for PBXNativeTarget "Snitch GPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB78C632AFF33DF0023FA1F /* Debug */,
+				EBB78C642AFF33DF0023FA1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBB78C652AFF33DF0023FA1F /* Build configuration list for PBXNativeTarget "Snitch GPTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB78C662AFF33DF0023FA1F /* Debug */,
+				EBB78C672AFF33DF0023FA1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBB78C682AFF33DF0023FA1F /* Build configuration list for PBXNativeTarget "Snitch GPTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB78C692AFF33DF0023FA1F /* Debug */,
+				EBB78C6A2AFF33DF0023FA1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBB78C302AFF33DE0023FA1F /* Project object */;
+}
